@@ -1,0 +1,40 @@
+.nav{
+    &__div{
+        height: 90px;
+        background-color: black;
+        display: flex;
+        &_logo{
+            width: 1047px;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 125px;
+                height: 90px;
+            }
+            p{
+                margin-left: 10px;
+                color: white;
+                align-self: center;
+                font-size: 24px;
+            }
+        }
+    }
+    &__button{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 900px;
+        margin-right: 100px;
+        &_main{
+            width: 204px;
+            height: 40px;
+            background-color:#FF7803;
+            border: none;
+            color:white;
+        }
+        &_search{
+            margin-right: 30px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import './modules/nav.scss';
+@import './modules/firstSection.scss';
+@import './modules/footer.scss';
+@import './modules/menu.scss';
+@import './modules/secondSection.scss';
+@import './modules/thirdSection.scss';
+@import './modules/fourthSection.scss';
+@import './modules//fifthSection.scss';
+@import './modules/sixthSection.scss';
+
+.container{
+    margin: 0 auto;
+    width: 1140px;   
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    margin-top: -8px;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display:none;
+}

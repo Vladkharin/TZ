@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>TZ</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu__wrapper">
+            <div class="menu__tabs">
+                <a href="pages/input.html">Вход</a>
+            </div>
+            <div class="menu__tabs">
+                <a href="pages/regist.html">Регистрация</a>
+            </div>
+            <div class="menu__tabs">
+                <a href="pages/personalArea.html">Личный Кабинет</a>
+            </div>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="nav__div">
+            <div class="nav__div_logo">
+                <a href="index.html"><img src="assets/icons/logo.png" alt="logo"></a>
+                <p>КОМПАНИЯ ПО АВИОПЕРЕВОЗКАМ</p>
+            </div>
+            <div class="nav__button">
+                <a class="nav__button_search" href="pages/search.html"><img src="assets/icons/magnifying glass.png" alt="search"></a>
+                <button class="nav__button_main">ЛИЧНЫЙ КАБИНЕТ</button>
+            </div>
+        </div>
+    </nav>
+    <section class="firstSection">
+        <div class="container">
+            <div class="firstSection__tabs">
+                <div class="firstSection__tab active">
+                    БРОНИРОВАНИЕ
+                </div>
+                <div class="firstSection__tab">
+                    УПРАВЛЕНИЕ БРОНИРОВАНИЕМ
+                </div>
+            </div>
+            <div class="tabContent">
+                <div class="firstSection__form">
+                    <form action="pages/choiceOfLocation.html">
+                        <label for="departur">Город вылета</label>
+                        <label for="arrival">Город прилета</label>
+                        <label for="there">Туда</label>
+                        <label for="viceversa">Обратно</label>
+                        <label for="passengers">Количество Пассажиров</label>
+                        <input id="departur" type="text" name="departur" class="firstSection__form_departur" value="Оренбург">
+                        <input id="arrival" type="text" name="arrival" class="firstSection__form_arrival" value="Абу-Даби">
+                        <input id="there" type="date" name="there" class="firstSection__form_there" min="2023-01-23" value="25.01.2023">
+                        <input id="viceversa" type="date" name="viceversa" class="firstSection__form_viceversa" placeholder="Дата">
+                        <input id="passengers" type="text" name="passengers" class="firstSection__form_passengers">
+                        <button type="submit">НАЙТИ</button>
+                    </form>
+                </div>
+            </div>
+            <div class="tabContent">
+                <div class="firstSection__search">
+                    <form class="firstSection__search_form">
+                        <label for="kod">Код бронирования</label>
+                        <label for=""></label>
+                        <label for="name">Фамилия, латинскими буквами</label>
+                        <input id="kod" type='text' class="firstSection__search_form_kod">
+                        <label for=""></label>
+                        <input id="name" type="text"class="firstSection__search_form_name">
+                        <button type='submit' class="firstSection__search_form_button">НАЙТИ</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        <div class="footer__smile">
+            <img src="assets/image/smile.png" alt="">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__text">Дизайн и проектирование сайта проводил Харин Владсилав</div>
+    </footer>
+
+    
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

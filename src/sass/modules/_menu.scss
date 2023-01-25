@@ -1,0 +1,22 @@
+.menu{
+    display: none;
+    position: relative;
+    &__wrapper{
+        position: absolute;
+        top: 80px;
+        right: 100px;
+    }
+    &__tabs{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-color:#D9D9D9;
+        width: 204px;
+        height: 40px;
+        border: 1px solid;
+    }
+}
+
+.active__menu{
+    display: block;
+}

@@ -1,0 +1,17 @@
+.footer{
+    background-color:#000000;
+    height: 494px;
+    margin-top: -5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 50px;
+    &__text{
+        color:white;
+    }
+    &__smile{
+        img{
+            width: 1903px;
+        }
+    }
+}
